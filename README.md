@@ -3,6 +3,8 @@ Instance segmentation for anime characters based on [CondInst](https://arxiv.org
 
 Many thanks to [AniSeg](https://github.com/jerryli27/AniSeg) created by jerryli27, as part of the dataset originates from the segmentation data provided in this [repo](https://github.com/jerryli27/AniSeg#about-the-models). The rest of the dataset is retrieved from [Pixiv](https://www.pixiv.net/) and manually annotated.
 
+Newer version of the model is still under development, stay tuned if you are interested.
+
 ## Usage
 ### Installation
 Both AdelaiDet and detectron2 are required. Please refer to the official guide from [AdelaiDet](https://github.com/aim-uofa/AdelaiDet#installation) and [detectron2](https://github.com/facebookresearch/detectron2/blob/master/INSTALL.md). A [Colab tutorial](https://github.com/zymk9/Yet-Another-Anime-Segmenter/blob/main/Anime_Segmentation.ipynb) is provided.
