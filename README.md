@@ -5,10 +5,10 @@ Many thanks to [AniSeg](https://github.com/jerryli27/AniSeg) created by jerryli2
 
 ## Usage
 ### Installation
-Both AdelaiDet and detectron2 are required. Please refer to the official guide from [AdelaiDet](https://github.com/aim-uofa/AdelaiDet#installation) and [detectron2](https://github.com/facebookresearch/detectron2/blob/master/INSTALL.md). A Colab tutorial is provided.
+Both AdelaiDet and detectron2 are required. Please refer to the official guide from [AdelaiDet](https://github.com/aim-uofa/AdelaiDet#installation) and [detectron2](https://github.com/facebookresearch/detectron2/blob/master/INSTALL.md). A [Colab tutorial](https://github.com/zymk9/Yet-Another-Anime-Segmenter/blob/main/Anime_Segmentation.ipynb) is provided.
 
 ### Inference
-1. Download the [pretrained model](https://drive.google.com/file/d/1-3S47uS4BSOdPmY0dKy99WA-DA7OUMq5/view?usp=sharing) and the config file.
+1. Download the [pretrained model](https://drive.google.com/file/d/1-3S47uS4BSOdPmY0dKy99WA-DA7OUMq5/view?usp=sharing) and the [config file](https://github.com/zymk9/Yet-Another-Anime-Segmenter/blob/main/config.yaml).
 
 2. Run inference with
    ```bash
@@ -18,7 +18,7 @@ Both AdelaiDet and detectron2 are required. Please refer to the official guide f
         --opts MODEL.WEIGHTS path/to/pretrained/model
    ```
 ## Training and Results
-Training using transfer learning from a [pretrained model](https://github.com/aim-uofa/AdelaiDet#coco-instance-segmentation-baselines-with-condinst) on COCO Instance Segmentation. Parameters can be found in the config file.
+Training using transfer learning from a [pretrained model](https://github.com/aim-uofa/AdelaiDet#coco-instance-segmentation-baselines-with-condinst) on COCO Instance Segmentation. Parameters can be found in the [config file](https://github.com/zymk9/Yet-Another-Anime-Segmenter/blob/main/config.yaml).
 
 Dataset is augmented by placing segmentations on pure backgrounds.
 
