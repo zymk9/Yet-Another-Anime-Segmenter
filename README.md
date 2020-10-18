@@ -12,7 +12,7 @@ Newer version of the model is still under development, stay tuned if you are int
 Both AdelaiDet and detectron2 are required. Please refer to the official guide from [AdelaiDet](https://github.com/aim-uofa/AdelaiDet#installation) and [detectron2](https://github.com/facebookresearch/detectron2/blob/master/INSTALL.md). A [Colab tutorial](https://github.com/zymk9/Yet-Another-Anime-Segmenter/blob/main/Anime_Segmentation.ipynb) is provided.
 
 ### Inference
-1. Download the [pretrained model](https://drive.google.com/file/d/1-3S47uS4BSOdPmY0dKy99WA-DA7OUMq5/view?usp=sharing) and the [config file](https://github.com/zymk9/Yet-Another-Anime-Segmenter/blob/main/config.yaml).
+1. Download the [pretrained model](https://drive.google.com/file/d/1-AmeAiTrtaPcNLUnRAovpveMkSxxpkKQ/view?usp=sharing) and the [config file](https://github.com/zymk9/Yet-Another-Anime-Segmenter/blob/main/config.yaml).
 
 2. Run inference with
    ```bash
